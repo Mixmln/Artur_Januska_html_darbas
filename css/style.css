@@ -1,0 +1,27 @@
+/* Common Css */
+/* Header */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 29px;
+}
+.left-side__top {
+}
+.right-side-burger__top {
+}
+.right-side-burger__top .fa {
+  font-size: 30px;
+  color: #999999;
+}
+.right-side-nav__top {
+  display: none;
+}
+.other-a {
+}
+/* Main */
+/* Section Free NFT */
+/* Sponsers */
+/* Cards */
+/* Launching Soon */
+/* Footer */
