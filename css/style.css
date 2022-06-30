@@ -1,6 +1,7 @@
 /* Common Css */
 body {
   font-family: "Inter", sans-serif;
+  margin-bottom: 1000px;
 }
 /* Header */
 .top {
@@ -34,7 +35,7 @@ body {
   margin-top: 80px;
   max-width: 274px;
 }
-.subtitle__content__hero {
+.subtitle {
   font-size: 16px;
   margin-bottom: 24px;
   font-weight: 700;
@@ -52,7 +53,7 @@ body {
   line-height: 30px;
   margin-bottom: 32px;
 }
-.btn__content__hero {
+.btn {
   border-radius: 50px;
   padding: 18px 52px;
   font-weight: 600;
@@ -79,6 +80,7 @@ body {
   background-position: 25%;
   background-size: cover;
   padding-top: 90px;
+  width: 101%;
 }
 .title__free-nft {
   font-weight: 600;
@@ -111,6 +113,7 @@ body {
   grid-area: c1;
   align-self: center;
 }
+
 .company2 {
   grid-area: c2;
 }
@@ -120,7 +123,225 @@ body {
 .company4 {
   grid-area: c4;
 }
-
+.company5 {
+  display: none;
+}
 /* Cards */
-/* Launching Soon */
+.cards {
+  margin-left: 32px;
+  position: relative;
+  margin-bottom: 92px;
+}
+.title__cards {
+  margin-right: 35px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48.41px;
+  color: #111111;
+  margin-bottom: 16px;
+}
+.text__cards {
+  margin-right: 35px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 40px;
+}
+.text__cards a {
+  text-decoration: underline;
+}
+.card {
+  width: 290px;
+  height: 400px;
+  border-radius: 16px;
+  border: 3px solid black;
+}
+.img__card {
+  /* height: 278px; */
+}
+.img__card img {
+  height: fit-content;
+}
+.info__card {
+  background-color: #ebebeb;
+  padding: 24px;
+  bottom: 0;
+}
+.nft__info__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.gloop-left {
+  color: #ff8139;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.bid-right {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.name-price__info__card {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.name-left {
+  color: #111111;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.how-much-right {
+  gap: 8px;
+  display: flex;
+}
+.price {
+  color: #111111;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.number-time__info__card {
+  display: flex;
+  justify-content: space-between;
+}
+.number-left {
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.time-right {
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.pos {
+  position: absolute;
+  left: 330px;
+  bottom: 0;
+}
+/* Upsell */
+.border {
+  border-bottom: 2px solid #eeeeee;
+}
+.upsell {
+  padding-top: 64px;
+  padding-bottom: 66px;
+  position: relative;
+}
+.info__upsell {
+}
+.title__upsell {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 67.77px;
+  color: #111111;
+  margin-bottom: 24px;
+  width: 75%;
+}
+.text__upsell {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 32px;
+  width: 57%;
+}
+.img__upsell {
+  position: absolute;
+  bottom: 0;
+  right: -66px;
+}
+.border-a {
+  position: absolute;
+  left: -32px;
+  bottom: 48%;
+  border-bottom: 2px solid #1111111f;
+  width: 120%;
+}
+.border-b {
+  position: absolute;
+  left: -32px;
+  bottom: 2px;
+  border-bottom: 2px solid #eeeeee;
+  width: 120%;
+}
 /* Footer */
+.logo-img {
+  margin-top: 64px;
+  margin-bottom: 30px;
+}
+.text__footer {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+  margin-bottom: 32px;
+}
+.icons {
+  margin-bottom: 64px;
+}
+.icons .fab {
+  font-size: 18px;
+  color: #999999;
+  margin-right: 16px;
+}
+.nav__footer h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 10%;
+  margin-bottom: 28px;
+}
+.nav__footer a {
+  display: block;
+}
+.my-a {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.mb {
+  margin-bottom: 16px;
+}
+.nav__footer {
+  margin-bottom: 64px;
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-areas:
+    "about nft"
+    "contact social";
+}
+.about {
+  grid-area: about;
+  margin-bottom: 40px;
+}
+.nft {
+  grid-area: nft;
+  margin-bottom: 40px;
+}
+.contact {
+  grid-area: contact;
+  margin-bottom: 40px;
+}
+.social {
+  grid-area: social;
+  margin-bottom: 40px;
+}
+.copy {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #999999;
+}
