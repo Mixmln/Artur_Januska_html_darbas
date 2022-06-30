@@ -20,6 +20,7 @@
     />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive-desctop.css" />
   </head>
 
   <body>
@@ -32,16 +33,16 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
       </nav>
       <nav class="right-side-nav__top">
-        <a href="#">Features</a>
-        <a href="#">About</a>
-        <a href="#">Launch</a>
+        <a class="mr" href="#">Features</a>
+        <a class="mr" href="#">About</a>
+        <a class="mr" href="#">Launch</a>
         <a href="#" class="other-a">Sign Up</a>
       </nav>
     </header>
     <!-- Hero -->
     <main class="hero">
       <div class="content__hero">
-        <p class="subtitle">launching soon</p>
+        <p class="subtitle subtitle__content__hero">launching soon</p>
         <h1 class="title__content__hero">An NFT like no other</h1>
         <p class="text__content__hero">
           Don't miss out on the release of our new NFT. Sign up below to receive
@@ -49,119 +50,144 @@
         </p>
         <button class="btn">Sign Up</button>
       </div>
-      <div class="graphic__hero"></div>
     </main>
     <!-- Free NFT -->
     <section class="free-nft">
       <div class="padding__free-nft container">
         <h2 class="title__free-nft">Free NFT for early birds</h2>
         <p class="text__free-nft">
-          Sign up today and you'll get a free <br />
-          NFT when we launch.
+          Sign up today and you'll get a free NFT when we launch.
         </p>
       </div>
     </section>
     <!-- Companies -->
     <section class="companies container">
-      <div class="company1">
-        <img src="./imgs/assets/companies/1.svg" alt="Boomerang-logo" />
-      </div>
-      <div class="company2">
-        <img src="./imgs/assets/companies/2.svg" alt="Blimp-logo" />
-      </div>
-      <div class="company3">
-        <img src="./imgs/assets/companies/3.svg" alt="qrco-logo" />
-      </div>
-      <div class="company4">
-        <img src="./imgs/assets/companies/5.svg" alt="Droplet-logo" />
-      </div>
-      <div class="company5">
-        <img src="./imgs/assets/companies/4.svg" alt="Open-Door-Logo" />
-      </div>
+      <div class="company1 company"></div>
+      <div class="company2 company"></div>
+      <div class="company3 company"></div>
+      <div class="company5 company"></div>
+      <div class="company4 company"></div>
     </section>
     <!-- Cards -->
-    <section class="cards">
+    <section class="cards-section">
       <h2 class="title__cards">LE Super Rare Auction</h2>
       <p class="text__cards">
         We have released four limited edition NFTs early which can be bid on via
         <a href="#">OpenSea</a>
       </p>
-      <!-- card -->
-      <div class="card">
-        <img src="./imgs/assets/ntfs/ntf-1.svg" alt="nft1" />
-        <div class="info__card">
-          <div class="nft__info__card">
-            <p class="gloop-left">gloop series</p>
-            <p class="bid-right">top bid</p>
-          </div>
-          <div class="name-price__info__card">
-            <p class="name-left">Purple Man</p>
-            <div class="how-much-right">
-              <img src="./imgs/assets/eth.svg" alt="ETH" />
-              <p class="price">2.99 eth</p>
+      <div class="cards">
+        <!-- card -->
+        <div class="card card1">
+          <div class="info__card">
+            <div class="nft__info__card">
+              <p class="gloop-left">gloop series</p>
+              <p class="bid-right">top bid</p>
+            </div>
+            <div class="name-price__info__card">
+              <p class="name-left">Purple Man</p>
+              <div class="how-much-right">
+                <img src="./imgs/assets/eth.svg" alt="ETH" />
+                <p class="price">2.99 eth</p>
+              </div>
+            </div>
+            <div class="number-time__info__card">
+              <p class="number-left">#12983</p>
+              <p class="time-right">1 day left</p>
             </div>
           </div>
-          <div class="number-time__info__card">
-            <p class="number-left">#12983</p>
-            <p class="time-right">1 day left</p>
-          </div>
         </div>
-      </div>
-      <!-- card -->
-      <!-- card -->
-      <div class="card pos">
-        <div class="img__card">
-          <img src="./imgs/assets/ntfs/nft-2.svg" alt="nft1" />
-        </div>
-        <div class="info__card">
-          <div class="nft__info__card">
-            <p class="gloop-left">gloop series</p>
-            <p class="bid-right">top bid</p>
-          </div>
-          <div class="name-price__info__card">
-            <p class="name-left">Beige Man</p>
-            <div class="how-much-right">
-              <img src="./imgs/assets/eth.svg" alt="ETH" />
-              <p class="price">2.99 eth</p>
+        <!-- card -->
+        <!-- card -->
+        <div class="card card2">
+          <div class="info__card">
+            <div class="nft__info__card">
+              <p class="gloop-left">gloop series</p>
+              <p class="bid-right">top bid</p>
+            </div>
+            <div class="name-price__info__card">
+              <p class="name-left">Beige</p>
+              <div class="how-much-right">
+                <img src="./imgs/assets/eth.svg" alt="ETH" />
+                <p class="price">2.99 eth</p>
+              </div>
+            </div>
+            <div class="number-time__info__card">
+              <p class="number-left">#12983</p>
+              <p class="time-right">1 day left</p>
             </div>
           </div>
-          <div class="number-time__info__card">
-            <p class="number-left">#12983</p>
-            <p class="time-right">1 day left</p>
+        </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="card card3">
+          <div class="info__card">
+            <div class="nft__info__card">
+              <p class="gloop-left">gloop series</p>
+              <p class="bid-right">top bid</p>
+            </div>
+            <div class="name-price__info__card">
+              <p class="name-left">Red Man</p>
+              <div class="how-much-right">
+                <img src="./imgs/assets/eth.svg" alt="ETH" />
+                <p class="price">2.99 eth</p>
+              </div>
+            </div>
+            <div class="number-time__info__card">
+              <p class="number-left">#12983</p>
+              <p class="time-right">1 day left</p>
+            </div>
           </div>
         </div>
+        <!-- card -->
+        <!-- card -->
+        <div class="card card4">
+          <div class="info__card">
+            <div class="nft__info__card">
+              <p class="gloop-left">gloop series</p>
+              <p class="bid-right">top bid</p>
+            </div>
+            <div class="name-price__info__card">
+              <p class="name-left">Green</p>
+              <div class="how-much-right">
+                <img src="./imgs/assets/eth.svg" alt="ETH" />
+                <p class="price">2.99 eth</p>
+              </div>
+            </div>
+            <div class="number-time__info__card">
+              <p class="number-left">#12983</p>
+              <p class="time-right">1 day left</p>
+            </div>
+          </div>
+        </div>
+        <!-- card -->
       </div>
-      <!-- card -->
     </section>
     <!-- Upsell -->
     <div class="border"></div>
-    <section class="upsell container">
-      <div class="info__upsell">
-        <p class="subtitle">launching soon</p>
-        <h2 class="title__upsell">An NFT like no other</h2>
-        <p class="text__upsell">
-          Don't miss out on the release of our new NFT. Sign up below to receive
-          updates.
-        </p>
-        <button class="btn">Sign Up</button>
-      </div>
-      <div class="img__upsell">
-        <img src="./imgs/assets/upsell-footer-image.svg" alt="new-nft" />
-      </div>
-      <div class="border-a"></div>
+    <div class="content__upsell">
+      <p class="subtitle subtitle__content__upsell">launching soon</p>
+      <h2 class="title__content__upsell">An NFT like no other</h2>
       <div class="border-b"></div>
-    </section>
+      <p class="text__content__upsell">
+        Don't miss out on the release of our new NFT. Sign up below to receive
+        updates <bold class="upsell-dis-text">when we go live.</bold>
+      </p>
+      <button class="btn">Sign Up</button>
+    </div>
+    <div class="border"></div>
     <!-- Footer -->
-    <footer class="container">
-      <div class="logo-img">
-        <img src="./imgs/assets/logo.svg" alt="logo" />
-      </div>
-      <p class="text__footer">Exclusive NFT Collection</p>
-      <div class="icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-tiktok"></i>
+    <footer class="container footer">
+      <div class="left__footer">
+        <div class="logo-img">
+          <img src="./imgs/assets/logo.svg" alt="logo" />
+        </div>
+        <p class="text__footer">Exclusive NFT Collection</p>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-tiktok"></i>
+        </div>
       </div>
       <nav class="nav__footer">
         <div class="about">
@@ -187,7 +213,10 @@
           <a href="#">Instagram</a>
         </div>
       </nav>
-      <p class="copy">&copy; Copyright 2022 NFTlanding</p>
     </footer>
+    <div class="flex-footer">
+      <p class="copy">&copy; Copyright 2022 NFTlanding</p>
+      <p class="launching-date">Launching August 2022</p>
+    </div>
   </body>
 </html>

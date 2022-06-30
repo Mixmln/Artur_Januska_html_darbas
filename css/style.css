@@ -11,10 +11,6 @@ body {
   padding-top: 29px;
   margin-bottom: 2.6rem;
 }
-.left-side__top {
-}
-.right-side-burger__top {
-}
 .right-side-burger__top .fa {
   font-size: 30px;
   color: #999999;
@@ -26,19 +22,24 @@ body {
 }
 /* Hero */
 .hero {
-  margin-left: 32px;
-  /* position: relative; */
   margin-bottom: 80px;
+  margin-left: 32px;
 }
 .content__hero {
-  /* position: absolute; */
-  margin-top: 80px;
+  padding-top: 80px;
+  background-image: url(../imgs/assets/graphic.svg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: 200px 5px;
+}
+.subtitle__content__hero {
   max-width: 274px;
 }
 .subtitle {
   font-size: 16px;
   margin-bottom: 24px;
   font-weight: 700;
+  letter-spacing: 10%;
   text-transform: uppercase;
   color: #ff3998;
 }
@@ -46,12 +47,14 @@ body {
   font-weight: 900;
   font-size: 3rem;
   margin-bottom: 24px;
+  max-width: 274px;
 }
 .text__content__hero {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 32px;
+  max-width: 274px;
 }
 .btn {
   border-radius: 50px;
@@ -61,17 +64,6 @@ body {
   line-height: 30px;
   text-align: center;
   border: 4px solid #ff3998;
-}
-.graphic__hero {
-  right: -200px;
-  position: absolute;
-  background-image: url(../imgs/assets/graphic.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 400px;
-  height: 400px;
-  top: 70px;
 }
 /* Free NFT */
 .free-nft {
@@ -90,6 +82,7 @@ body {
   margin-bottom: 16px;
 }
 .text__free-nft {
+  width: 364px;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -100,36 +93,43 @@ body {
 }
 /* Companies */
 .companies {
-  margin-top: 64px;
-  margin-bottom: 56px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: auto auto;
-  grid-template-areas:
-    "c1 c2"
-    "c3 c4";
+  margin-top: 54px;
+  margin-bottom: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.company {
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 50px;
+  margin: 10px;
 }
 .company1 {
-  grid-area: c1;
-  align-self: center;
+  background-image: url(../imgs/assets/companies/1.svg);
+  background-position: left;
+  width: 137px;
+  height: 40px;
+  margin: 0;
+  margin-top: 16px;
 }
 
 .company2 {
-  grid-area: c2;
+  background-image: url(../imgs/assets/companies/2.svg);
 }
 .company3 {
-  grid-area: c3;
+  background-image: url(../imgs/assets/companies/3.svg);
 }
 .company4 {
-  grid-area: c4;
+  background-image: url(../imgs/assets/companies/5.svg);
 }
 .company5 {
+  background-image: url(../imgs/assets/companies/4.svg);
   display: none;
 }
 /* Cards */
-.cards {
+.cards-section {
   margin-left: 32px;
-  position: relative;
   margin-bottom: 92px;
 }
 .title__cards {
@@ -151,14 +151,32 @@ body {
 .text__cards a {
   text-decoration: underline;
 }
+.cards {
+  display: flex;
+  gap: 40px;
+  width: 1280px;
+}
 .card {
   width: 290px;
   height: 400px;
   border-radius: 16px;
-  border: 3px solid black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: top;
 }
-.img__card {
-  /* height: 278px; */
+.card1 {
+  background-image: url(../imgs/assets/ntfs/ntf-1.svg);
+}
+.card2 {
+  background-image: url(../imgs/assets/ntfs/nft-2.svg);
+}
+.card3 {
+  background-image: url(../imgs/assets/ntfs/ntf-3.svg);
+}
+.card4 {
+  background-image: url(../imgs/assets/ntfs/ntf-4.svg);
 }
 .img__card img {
   height: fit-content;
@@ -226,58 +244,53 @@ body {
   font-weight: 400;
   line-height: 18px;
 }
-.pos {
-  position: absolute;
-  left: 330px;
-  bottom: 0;
-}
 /* Upsell */
+.content__upsell {
+  position: relative;
+  padding-bottom: 66px;
+  margin-left: 32px;
+  margin-top: 28px;
+  background-image: url(../imgs/assets/upsell-footer-image.svg);
+  background-repeat: no-repeat;
+  background-position: 223px 169px;
+}
+.subtitle__content__upsell {
+  padding-top: 64px;
+}
 .border {
   border-bottom: 2px solid #eeeeee;
-}
-.upsell {
-  padding-top: 64px;
-  padding-bottom: 66px;
-  position: relative;
-}
-.info__upsell {
-}
-.title__upsell {
-  font-weight: 900;
-  font-size: 56px;
-  line-height: 67.77px;
-  color: #111111;
-  margin-bottom: 24px;
-  width: 75%;
-}
-.text__upsell {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #555555;
-  margin-bottom: 32px;
-  width: 57%;
-}
-.img__upsell {
-  position: absolute;
-  bottom: 0;
-  right: -66px;
-}
-.border-a {
-  position: absolute;
-  left: -32px;
-  bottom: 48%;
-  border-bottom: 2px solid #1111111f;
   width: 120%;
 }
 .border-b {
   position: absolute;
+  border-bottom: 2px solid #11111114;
   left: -32px;
-  bottom: 2px;
-  border-bottom: 2px solid #eeeeee;
   width: 120%;
 }
+.title__content__upsell {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 67.77px;
+  margin-bottom: 24px;
+  max-width: 274px;
+}
+.text__content__upsell {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 24px;
+  max-width: 207px;
+}
+.upsell-dis-text {
+  display: none;
+}
+
 /* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
 .logo-img {
   margin-top: 64px;
   margin-bottom: 30px;
@@ -344,4 +357,7 @@ body {
   font-weight: 400;
   line-height: 20px;
   color: #999999;
+}
+.launching-date {
+  display: none;
 }

@@ -1,0 +1,161 @@
+@media screen and (min-width: 1024px) {
+  /* Header */
+  .top {
+    padding-top: 0;
+    margin-top: 70px;
+    /* margin-bottom: 102px; */
+  }
+  .right-side-burger__top {
+    display: none;
+  }
+  .right-side-nav__top {
+    display: inline-block;
+  }
+  .right-side-nav__top .mr {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 28px;
+  }
+  .other-a {
+    color: #ff3998;
+  }
+  /* Hero */
+  .hero {
+    margin-bottom: 182px;
+    margin: 0 auto;
+    width: 1280px;
+  }
+  .content__hero {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    padding-top: 182px;
+    padding-bottom: 150px;
+    padding-right: 130px;
+    background-size: 60%;
+    background-position: 530px 60px;
+  }
+  .title__content__hero {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    max-width: 620px;
+    background-color: transparent;
+  }
+  .text__content__hero {
+    max-width: 570px;
+    margin-bottom: 41px;
+    background-color: transparent;
+  }
+  .graphic__hero {
+    position: unset;
+    width: 90%;
+    height: 650px;
+    background-size: 140%;
+  }
+  /* Free NFT */
+  .free-nft {
+    border-radius: 10px;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 154px 586px 64px 64px;
+  }
+  .title__free-nft {
+    margin-bottom: 24px;
+  }
+  .text__free-nft {
+    width: auto;
+  }
+  .padding__free-nft {
+    padding: 0;
+    margin: 0;
+  }
+  /* Companies */
+  .companies {
+    margin-bottom: 120px;
+  }
+  .company1 {
+    width: 220px;
+  }
+  .company5 {
+    display: block;
+    width: 200px;
+  }
+  /* Cards */
+  .cards-section {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .title__cards {
+    margin-bottom: 24px;
+  }
+  .text__cards {
+    margin-bottom: 56px;
+  }
+  /* Upsell */
+  .content__upsell {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    background-size: auto;
+    background-position: 933px 83px;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+  }
+  .subtitle__content__upsell {
+    padding-top: 120px;
+  }
+  .border {
+    display: none;
+  }
+  .border-b {
+    display: none;
+  }
+  .title__content__upsell {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 67.77px;
+    margin-bottom: 24px;
+    max-width: 620px;
+  }
+  .text__content__upsell {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    max-width: 570px;
+  }
+  .upsell-dis-text {
+    display: inline;
+    text-decoration: none;
+  }
+  /* Footer */
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .logo-img {
+    margin-top: 120px;
+  }
+  .nav__footer {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 0;
+  }
+  .flex-footer {
+    margin: 0 auto;
+    margin-top: 123px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .launching-date {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #999999;
+    display: block;
+  }
+}
